@@ -22,5 +22,5 @@ io.on("connect", socket =>{
         delete activeUsers[socket.id];
     })
 
-}).then(()=>console.log(activeUsers));
+})
 
